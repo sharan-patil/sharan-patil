@@ -76,7 +76,6 @@ section {
 	font-size : 15px;
 	background-size: 100%;
 	border-top: white 2px;
-	border
 }
 
 section ul {
@@ -106,7 +105,7 @@ section img:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #f5f5f5;
+	background-color: rgba(255, 234, 167, 1);
 	margin: 0.3%;
 
 }
@@ -134,7 +133,7 @@ section img:hover {
 	text-align: center;
 	font-size: xx-large;
 	font-weight: bold;
-	background-color: rgba(178, 190, 195, 0.9);
+	background-color: rgba(253, 203, 110, 0.9);
 	margin: 5% 5%;
 	padding: 20px;
 }
