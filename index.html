@@ -1,46 +1,113 @@
-<!DOCTYPE html>
-<HTML>
-<HEAD id = "head">
-	<TITLE> My First Website! </TITLE>
-	<META charset = "UTF-8">
-	<META name = "Sharan's Website" content = "Contains Sharan's resume, and links to Github and LinkedIn.">
+<html>
+<head>
 	<link rel = "stylesheet" href = "stylesheets/main.css">
-	<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</HEAD>
-<BODY>
-	<div id = "layout">
-			<div id = "header">
-				<h1>
-					<center>
-					</center>
-				</h1>
+	<script async defer src="https://buttons.github.io/buttons.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+	<title>
+		Sharan's Portfolio
+	</title>
+</head>
+<body>
+
+	<nav>
+		
+		<ul>
+			<li><a href = "#headerLocation"> HOME</a></li>
+			<li><a href = "#listProjects">PROJECTS</a></li>
+			<!-- <li>BLOG</li> -->
+		</ul>
+	</nav>
+
+	<header id = "headerLocation">
+
+		<div class = "headerImg">
+			<img src = "images/facepic.jpeg" alt = "Profile Picture">
+			SHARAN PATIL
+		</div>
+
+		<div class = "profileDescription">
+			<p> Hello! I want to use this portfolio as a medium to represent myself. I find thrill in learning and am using this to practice my web development skills. I enjoy software engineering and aim to use technology to make a difference.</p>
+		</div>
+	</header>
+
+	<section>
+		
+		<p class = "projectHeader">
+			Links
+		</p>
+
+		<ul>
+			<li>
+				<a href = "https://github.com/sharan-patil" title = "GitHub">
+					<img src = "images/GitHub-Mark-120px-plus.png" alt= "github">
+				</a>
+			</li>
+			<li>
+				<a href = "https://drive.google.com/file/d/1k2qRajke42mFbxW-p8L8VqmXrKMmafCM/view?usp=sharing" title = "Resume">
+					<img src = "images/file-icon.png" alt= "Resume">
+				</a>
+			</li>
+			<li>
+				<a href = "https://www.linkedin.com/in/sharan-patil99/" title = "LinkedIn">
+					<img src = "images/LinkedIn-Logo.png" alt = "linkedin">
+				</a>
+			</li>
+		</ul>
+
+		<p class = "projectHeader" id = "listProjects">
+			Projects
+		</p>
+
+		<div class = "container">
+
+			<div class = "project">
+				Fillit
 			</div>
-			<div id = "face">
-				<p>
-					<center>
-						<img class = "photo" src = "me.jpeg" alt = "My selfie.">
-					</center>
-				</p>
-				<h3>
-					<p>
-						<center>
-							Sharan B Patil &middot; San José State University &middot; Class of 2021
-						</center>
-					</p>
-				</h3>
+
+			<div class = "projectIcons">
+
+				<a class="github-button" href="https://github.com/sharan-patil/fillit" data-icon="octicon-eye" data-size="large">View</a>
+
 			</div>
-			<div id = "links">
-				<ul id = "horizontal">
-					<li> <a href = "https://docs.google.com/document/d/1jNQDJceVlgGuPa4Z-dyoBZbfhl4fUzM7NX5nWld3iEE/edit?usp=sharing" title = "Resume"> <i class="fa fa-file-text" style="font-size: 60px;"> </i> </a> </li>
-					<li> <a href = "https://www.linkedin.com/in/sharan-patil-88698614b" title = "LinkedIn"> <i class = "fa fa-linkedin-square" style = "font-size: 70px"> </i> </a> </li>
-					<li> <a href = "https://github.com/sharan-patil" title = "Github"> <i class = "fa fa-github-square" style = "font-size: 70px"> </i> </a> </li>
-				</ul>
+
+			<div class = "project">
+				Sudoku
 			</div>
-			<div id = "footer">
-				<center>
-					Copyright &copy; 2018 Sharan B Patil.
-				</center>
+
+			<div class = "projectIcons">
+				
+				<a class="github-button" href="https://github.com/sharan-patil/programs/blob/master/Python%20Files/sudoku_solver.py" data-icon="octicon-eye" data-size="large">View</a>
+
 			</div>
-	</div>
-</BODY>
-</HTML>
+
+			<div class = "project">
+				Portfolio Website
+			</div>
+
+			<div class = "projectIcons">
+				
+				<a class="github-button" href="" data-icon="octicon-eye" data-size="large">View</a>
+
+			</div>
+
+			<div class = "project">
+				Sun Valley Market
+			</div>
+
+			<div class = "projectIcons">
+				
+				<a class="github-button" href="https://github.com/sharan-patil/SunValleyMarket" data-icon="octicon-eye" data-size="large">View</a>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	<footer>
+			&copy San Jose, CA. 2020.
+	</footer>
+
+</body>
+
+</html>
