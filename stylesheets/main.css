@@ -121,6 +121,10 @@ section img:hover {
 	margin: 0.3% 50% 0.3% 20%;
 }
 
+.hobbiesDescription {
+	font-size: large;
+}
+
 .chessIcon {
 	width: 16px;
 	height: 16px;
