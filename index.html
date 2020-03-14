@@ -3,10 +3,10 @@
 	<link rel = "stylesheet" href = "stylesheets/main.css">
 	<script async defer src="https://buttons.github.io/buttons.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
-	<script src = "main.js"></script>
 	<title>
 		Sharan's Portfolio
 	</title>
+
 </head>
 <body>
 
@@ -29,6 +29,7 @@
 		<div class = "profileDescription">
 			<p> Hello! I want to use this portfolio as a medium to represent myself. I find thrill in learning and am using this to practice my web development skills. I enjoy software engineering and aim to use technology to make a difference.</p>
 		</div>
+		
 	</header>
 
 	<section>
@@ -39,17 +40,17 @@
 
 		<ul>
 			<li>
-				<a href = "https://github.com/sharan-patil" title = "GitHub">
+				<a target="_blank" href = "https://github.com/sharan-patil" title = "GitHub">
 					<img src = "images/GitHub-Mark-120px-plus.png" alt= "github">
 				</a>
 			</li>
 			<li>
-				<a href = "https://drive.google.com/file/d/1k2qRajke42mFbxW-p8L8VqmXrKMmafCM/view?usp=sharing" title = "Resume">
+				<a target="_blank" href = "https://drive.google.com/file/d/1k2qRajke42mFbxW-p8L8VqmXrKMmafCM/view?usp=sharing" title = "Resume">
 					<img src = "images/file-icon.png" alt= "Resume">
 				</a>
 			</li>
 			<li>
-				<a href = "https://www.linkedin.com/in/sharan-patil99/" title = "LinkedIn">
+				<a target="_blank" href = "https://www.linkedin.com/in/sharan-patil99/" title = "LinkedIn">
 					<img src = "images/LinkedIn-Logo.png" alt = "linkedin">
 				</a>
 			</li>
@@ -67,7 +68,7 @@
 
 			<div class = "projectIcons">
 
-				<a class="github-button" href="https://github.com/sharan-patil/fillit" data-icon="octicon-eye" data-size="large">View</a>
+				<a class="github-button" target="_blank" href="https://github.com/sharan-patil/fillit" data-icon="octicon-eye" data-size="large">View</a>
 
 			</div>
 
@@ -77,7 +78,7 @@
 
 			<div class = "projectIcons">
 				
-				<a class="github-button" href="https://github.com/sharan-patil/programs/blob/master/Python%20Files/sudoku_solver.py" data-icon="octicon-eye" data-size="large">View</a>
+				<a class="github-button" target="_blank" href="https://github.com/sharan-patil/programs/blob/master/Python%20Files/sudoku_solver.py" data-icon="octicon-eye" data-size="large">View</a>
 
 			</div>
 
@@ -87,7 +88,7 @@
 
 			<div class = "projectIcons">
 				
-				<a class="github-button" href="https://github.com/sharan-patil/sharan-patil.github.io" data-icon="octicon-eye" data-size="large">View</a>
+				<a class="github-button" target="_blank" href="https://github.com/sharan-patil/sharan-patil.github.io" data-icon="octicon-eye" data-size="large">View</a>
 
 			</div>
 
@@ -97,11 +98,44 @@
 
 			<div class = "projectIcons">
 				
-				<a class="github-button" href="https://github.com/sharan-patil/SunValleyMarket" data-icon="octicon-eye" data-size="large">View</a>
+				<a class="github-button" target="_blank" href="https://github.com/sharan-patil/SunValleyMarket" data-icon="octicon-eye" data-size="large">View</a>
 
 			</div>
 
 		</div>
+
+	<p class = "projectHeader">
+		Hobbies
+	</p>
+
+	<div class = "hobbiesList">
+
+		Chess 
+		<a target="_blank" href = "https://lichess.org/@/briares" title = "Lichess" class = "chessIconLink">
+			<img src = "images/link icon.png" class = "chessIcon"></img>
+		</a>		
+
+	</div>
+
+	<div class = "hobbies">
+
+		<div class = "hobbiesSubList" id = "chessPuzzles">
+			Puzzles Played: 
+		</div>
+
+		<div class = "hobbiesSubList" id = "chessPuzzleRating">
+			Current Puzzle Rating: 
+		</div>
+
+		<div class = "hobbiesSubList" id = "chessClassical">
+			Classical Games Played:
+		</div>
+
+		<div class = "hobbiesSubList" id = "chessClassicalRating">
+			Current Classical Rating:
+		</div>
+
+	</div>
 
 	</section>
 
@@ -109,6 +143,6 @@
 			&copy San Jose, CA. 2020.
 	</footer>
 
+<script src = "scripts/main.js"></script>
 </body>
-
 </html>

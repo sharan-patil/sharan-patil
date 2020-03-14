@@ -2,10 +2,6 @@ body {
 	color: black;
 	font-family: 'Spartan';
 	background-color: white;
-	background: url("../images/two pencils.jpg") no-repeat;
-	background-size: 100%;
-	background-position: bottom center;
-	background-attachment: fixed;
 	margin: 0;
 }
 
@@ -18,7 +14,6 @@ header {
 	background-size: 100%;
 	background-position: 0% 60%;
 	background-repeat: no-repeat;
-	/* background-attachment: fixed; */
 	margin: 0;
 	padding-top: 10%;
 	padding-bottom: 10%;
@@ -43,6 +38,7 @@ nav {
 	font-size: 20px;
 	background-color: black;
 	color: white;
+	/*border: solid red 2px;*/
 }
 
 nav ul {
@@ -74,8 +70,8 @@ nav a:visited {
 
 section {
 	font-size : 15px;
-	background-size: 100%;
-	border-top: white 2px;
+	border-top: solid white 1px;
+	background-color: #bcc5d4;
 }
 
 section ul {
@@ -100,26 +96,67 @@ section img {
 section img:hover {
 }
 
-.project {
+.hobbiesList {
 	width: 35%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: rgba(255, 234, 167, 1);
-	margin: 0.3%;
-
+	margin-left: 7%;
+	padding: 10px;
+	background-color: #8591a6;
+	display: block;
+	text-align: center;
 }
 
-.projectDescription {
-	width: 35%;
+.hobbies {
 	display: flex;
-	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 1%;
+	padding-bottom: 3%;
+	width: 100%;
+}
+
+.hobbiesSubList {
+	padding: 1%;
+	width: 35%;
+	background-color: #95a2b8;
+	margin: 0.3% 50% 0.3% 20%;
+}
+
+.chessIcon {
+	width: 16px;
+	height: 16px;
+}
+
+.chessIconLink {
+	text-decoration: none;
+	color: black;
 }
 
 .container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+}
+
+.project {
+	width: 35%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #95a2b8;
+	margin: 0.3%;
+
+}
+
+.projectIcons {
+	width: 35%;
+	text-align: center;
+	margin: 10px;
+}
+
+.projectDescription {
+	width: 35%;
+	display: flex;
+	justify-content: space-between;
 }
 
 .profileDescription {
@@ -133,7 +170,8 @@ section img:hover {
 	text-align: center;
 	font-size: xx-large;
 	font-weight: bold;
-	background-color: rgba(253, 203, 110, 0.9);
+	/*background-color: #666d7a;*/
+	background-color: #878f9c;
 	margin: 5% 5%;
 	padding: 20px;
 }
@@ -152,12 +190,6 @@ section img:hover {
 	margin-left: 5%;
 	text-align: center;
 	font-size: xx-large;
-}
-
-.projectIcons {
-	width: 35%;
-	text-align: center;
-	margin: 10px;
 }
 
 .buttonIconsC {
@@ -184,4 +216,18 @@ section img:hover {
 footer {
 	text-align: center;
 	font-size: 10px;
+	background-color: #bcc5d4;
 }
+
+@media screen and (max-width: 1000px) {
+
+header {
+	background-height: 100%;
+	background-color: #bcc5d4;
+	background-image: none;
+	border: solid red 2px;
+	display: inline-block;
+}
+
+}
+
